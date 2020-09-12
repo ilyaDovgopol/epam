@@ -1,0 +1,222 @@
+.header .header-wrap .landing-logo, .section_banner, .footer .footer-wrap, .footer .footer-wrap .footer_logo {
+  display: flex;
+  align-items: center; }
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: auto;
+  padding: 0;
+  background: #21232e;
+  color: #fff; }
+
+.header {
+  background: url("../img/m-h-night.jpg") no-repeat 0 center;
+  background-size: cover;
+  height: 46.2vw;
+  border-bottom-right-radius: 40%; }
+  .header .header-wrap {
+    margin-left: 135px; }
+    .header .header-wrap .landing-logo {
+      font-family: "Fresca", sans-serif;
+      font-weight: 600;
+      text-align: center;
+      line-height: 1.3;
+      padding-top: 5px; }
+      .header .header-wrap .landing-logo img {
+        width: 39px; }
+      .header .header-wrap .landing-logo p {
+        font-size: 21px;
+        padding: 12px; }
+        .header .header-wrap .landing-logo p span {
+          display: block;
+          font-size: 9px; }
+    .header .header-wrap .header_heading {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: bold;
+      font-size: 63px;
+      margin-top: 52px;
+      letter-spacing: 0.2px;
+      max-width: 694px;
+      line-height: 1; }
+      .header .header-wrap .header_heading::after {
+        content: "";
+        display: block;
+        background: #ff4e33;
+        height: 22px;
+        margin-top: -21px;
+        width: 266px; }
+    .header .header-wrap .header_text {
+      font-family: "Fresca", sans-serif;
+      font-size: 14px;
+      white-space: pre-line;
+      line-height: 1.5;
+      margin-top: 31px;
+      letter-spacing: 0.2px; }
+    .header .header-wrap .header_button {
+      background: #e3ac00;
+      border: none;
+      border-radius: 3px;
+      color: #f2f3cf;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      font-size: 17px;
+      padding: 10px 36px;
+      margin-top: 53px; }
+      .header .header-wrap .header_button:hover {
+        background-color: #ffc717; }
+
+.section_text {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 37px;
+  margin-top: 33px; }
+  .section_text::after {
+    content: "";
+    display: block;
+    background: #ff4e33;
+    height: 11px;
+    margin: -18px 0 0 50%;
+    width: 166px;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(3.9%); }
+
+.section_card_wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px; }
+  .section_card_wrap .section_card {
+    background: #3b3f50;
+    margin: 0 8px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 349px;
+    height: 401px; }
+    .section_card_wrap .section_card .section_card_img {
+      width: 100%;
+      border-radius: inherit; }
+    .section_card_wrap .section_card .section_card_heading {
+      color: white;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      font-size: 21px;
+      margin-top: 9px; }
+    .section_card_wrap .section_card:first-of-type .section_card_underline::after {
+      content: "";
+      display: block;
+      background: #ff4e33;
+      height: 10px;
+      margin: -11px auto;
+      width: 161px; }
+    .section_card_wrap .section_card:nth-of-type(2) .section_card_underline::after {
+      content: "";
+      display: block;
+      background: #ff4e33;
+      height: 10px;
+      margin: -11px auto;
+      width: 135px; }
+    .section_card_wrap .section_card:last-of-type .section_card_underline::after {
+      content: "";
+      display: block;
+      background: #ff4e33;
+      height: 10px;
+      margin: -11px auto;
+      width: 104px; }
+    .section_card_wrap .section_card .section_card_text {
+      color: #c0c3ce;
+      font-family: "Fresca", sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.1px;
+      word-spacing: 0.1px;
+      line-height: 1.5; }
+    .section_card_wrap .section_card:not(:last-of-type) .section_card_text {
+      margin-top: 24px; }
+    .section_card_wrap .section_card:last-of-type .section_card_text {
+      margin-top: 35px; }
+
+.section_banner {
+  justify-content: space-around;
+  position: absolute;
+  background: linear-gradient(45deg, #e3ab01, #912b53);
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  margin: 123px auto;
+  width: 841px;
+  height: 126px; }
+  .section_banner .section_banner_text_wrap {
+    line-height: 4;
+    margin-top: -32px; }
+    .section_banner .section_banner_text_wrap .section_banner_heading {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      letter-spacing: 0.2px; }
+      .section_banner .section_banner_text_wrap .section_banner_heading::after {
+        content: "";
+        display: block;
+        background: #ff4e33;
+        height: 12px;
+        margin: -51px 0 0 107px;
+        width: 55px; }
+    .section_banner .section_banner_text_wrap .section_banner_text {
+      color: #c0c3ce;
+      font-family: "Fresca", sans-serif;
+      font-size: 14px; }
+  .section_banner .section_banner_button {
+    background: #e3ac00;
+    border: none;
+    border-radius: 3px;
+    color: #f2f3cf;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 36px; }
+    .section_banner .section_banner_button:hover {
+      background-color: #ffc717; }
+
+.footer {
+  background-color: #3b3f50;
+  color: #c0c3ce; }
+  .footer .footer-wrap {
+    justify-content: space-around;
+    height: 212px;
+    margin-top: 184px;
+    padding-top: 66px; }
+    .footer .footer-wrap .footer_logo {
+      font-family: "Fresca", sans-serif;
+      font-weight: 600;
+      text-align: center;
+      line-height: 1.3; }
+      .footer .footer-wrap .footer_logo img {
+        width: 39px; }
+      .footer .footer-wrap .footer_logo p {
+        font-size: 21px;
+        padding: 12px; }
+        .footer .footer-wrap .footer_logo p span {
+          display: block;
+          font-size: 9px; }
+    .footer .footer-wrap .footer_text {
+      font-family: "Fresca", sans-serif;
+      font-size: 12px;
+      max-width: 269px;
+      line-height: 1.5;
+      letter-spacing: 0.1px;
+      margin-left: -17px; }
+    .footer .footer-wrap .footer-cr {
+      font-family: "Fresca", sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.3px; }
+
+/*# sourceMappingURL=style2.css.map */
