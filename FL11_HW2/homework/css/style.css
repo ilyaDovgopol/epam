@@ -4,70 +4,6 @@ write your code here
 
 */
 
-@media print {
-
-  .tm-sidebar,
-  .tm-team-img,
-  #about,
-  .gallery-container,
-  .carousel-indicators,
-  .img-contact-us,
-  #contact {
-    display: none;
-  }
-
-  body,
-  .tm-main-content,
-  .tm-content-box,
-  .tm-banner,
-  .padding-medium,
-  .heading ol {
-    margin: 0;
-    padding: 0;
-  }
-
-  .tm-team-description-container {
-    margin-top: 35px;
-    max-width: 100%;
-  }
-
-  h2 {
-    color: lightskyblue;
-    font-weight: lighter;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .tm-section-description {
-    text-align: center;
-  }
-
-  .heading,
-  .active {
-    margin-top: 15px;
-  }
-
-  .heading ol {
-    max-width: 70%;
-    text-align: center;
-  }
-
-  .heading a {
-    color: black;
-  }
-
-  .heading li::first-letter {
-    color: lightskyblue;
-    font-size: 25px;
-  }
-
-  .heading li:nth-child(even) {
-    margin-bottom: 10px;
-    text-align: right;
-  }
-
-}
-
 @media screen {
 
   .tm-box-bg-title:hover {
@@ -191,15 +127,15 @@ write your code here
   }
 
   textarea.form-control {
-    border-radius: 5px;
     border: 2px solid lightskyblue;
+    border-radius: 5px;
     resize: none;
   }
 
   .submit-btn {
     background-color: white;
-    border-radius: 0;
     border: 2px solid lightskyblue;
+    border-radius: 0;
     color: lightskyblue;
     float: right;
     font-size: 20px;
@@ -271,6 +207,70 @@ write your code here
       transform: rotateY(360deg);
     }
 
+  }
+
+}
+
+@media print {
+
+  .tm-sidebar,
+  .tm-team-img,
+  #about,
+  .gallery-container,
+  .carousel-indicators,
+  .img-contact-us,
+  #contact {
+    display: none;
+  }
+
+  body,
+  .tm-main-content,
+  .tm-content-box,
+  .tm-banner,
+  .padding-medium,
+  .heading ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tm-team-description-container {
+    margin-top: 35px;
+    max-width: 100%;
+  }
+
+  h2 {
+    color: lightskyblue;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tm-section-description {
+    text-align: center;
+  }
+
+  .heading,
+  .active {
+    margin-top: 15px;
+  }
+
+  .heading ol {
+    max-width: 70%;
+    text-align: center;
+  }
+
+  .heading a {
+    color: black;
+  }
+
+  .heading li::first-letter {
+    color: lightskyblue;
+    font-size: 25px;
+  }
+
+  .heading li:nth-child(even) {
+    margin-bottom: 10px;
+    text-align: right;
   }
 
 }
